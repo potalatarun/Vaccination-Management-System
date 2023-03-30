@@ -11,6 +11,7 @@ function App() {
      <div className='header'>
       <Link to={'/read'}><h2 className="main-header">Covid Management System</h2></Link>
       <Link to={'/create'}><h2 className="main-header" id='create'>Add User</h2></Link>
+      <Link to={'/search'}><h2 className="main-header" id='create'>Search User</h2></Link>
      </div>
       <div className="main">
       <div>
@@ -18,6 +19,7 @@ function App() {
         <Route path="/create" element={<Create/>}/> 
         <Route path='/read' element={<Read/>}/>
         <Route path='/update' element={<Update/>}/>
+        <Route path="/search" element={<Lookup/>}/>
         </Routes>
       </div>
     </div>

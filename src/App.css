@@ -16,7 +16,7 @@
 .create-form label{
   color: whitesmoke !important;
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px !important;
+  font-size: 20px !important;
 }
 
 .header{
@@ -29,4 +29,16 @@
 }
 #create{
   margin-left: 20px;
+}
+.read-table{
+  font-size: 20px !important;
+}
+.search-table{
+  font-size: 20px !important;
+}
+.search-bar{
+  justify-content: center;
+  align-items: center;
+  margin-left: 1020px;
+  margin-bottom: 2px;
 }

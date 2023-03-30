@@ -41,7 +41,7 @@ export default function Read(){
     }
     return(
         <div>
-            <Table>
+            <Table className='read-table'>
                 <Table.Header>
                     <Table.Row>
                         <Table.HeaderCell>Id</Table.HeaderCell>
